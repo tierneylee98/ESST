@@ -5,7 +5,7 @@ block3 = [
    "emotion_condition": "neutral9_m",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -15,7 +15,7 @@ block3 = [
    "emotion_condition": "neutral18_m",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -25,7 +25,7 @@ block3 = [
    "emotion_condition": "neutral3",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -35,7 +35,7 @@ block3 = [
    "emotion_condition": "neutral25_m",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -45,7 +45,7 @@ block3 = [
    "emotion_condition": "neutral2",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -55,7 +55,7 @@ block3 = [
    "emotion_condition": "neutral32_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -65,7 +65,7 @@ block3 = [
    "emotion_condition": "neutral30_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -75,7 +75,7 @@ block3 = [
    "emotion_condition": "neutral29_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -85,7 +85,7 @@ block3 = [
    "emotion_condition": "neutral5_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -95,7 +95,7 @@ block3 = [
    "emotion_condition": "neutral14_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -105,7 +105,7 @@ block3 = [
    "emotion_condition": "neutral19_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -115,7 +115,7 @@ block3 = [
    "emotion_condition": "neutral22",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -125,7 +125,7 @@ block3 = [
    "emotion_condition": "2191_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -135,7 +135,7 @@ block3 = [
    "emotion_condition": "neutral26",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -145,7 +145,7 @@ block3 = [
    "emotion_condition": "neutral32",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -155,7 +155,7 @@ block3 = [
    "emotion_condition": "2215_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -165,7 +165,7 @@ block3 = [
    "emotion_condition": "neutral33",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -175,7 +175,7 @@ block3 = [
    "emotion_condition": "neutral27",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -185,7 +185,7 @@ block3 = [
    "emotion_condition": "neutral20_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -195,7 +195,7 @@ block3 = [
    "emotion_condition": "neutral19",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -205,7 +205,7 @@ block3 = [
    "emotion_condition": "neutral22_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -215,7 +215,7 @@ block3 = [
    "emotion_condition": "neutral31",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -225,7 +225,7 @@ block3 = [
    "emotion_condition": "neutral25",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -235,7 +235,7 @@ block3 = [
    "emotion_condition": "neutral24",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -245,7 +245,7 @@ block3 = [
    "emotion_condition": "neutral30",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -255,7 +255,7 @@ block3 = [
    "emotion_condition": "neutral18",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -265,7 +265,7 @@ block3 = [
    "emotion_condition": "2383_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -275,7 +275,7 @@ block3 = [
    "emotion_condition": "neutral15",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -285,7 +285,7 @@ block3 = [
    "emotion_condition": "neutral29",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -295,7 +295,7 @@ block3 = [
    "emotion_condition": "neutral28",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -305,7 +305,7 @@ block3 = [
    "emotion_condition": "neutral14",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -315,7 +315,7 @@ block3 = [
    "emotion_condition": "neutral2_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -325,7 +325,7 @@ block3 = [
    "emotion_condition": "neutral13_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -335,7 +335,7 @@ block3 = [
    "emotion_condition": "neutral11_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -345,7 +345,7 @@ block3 = [
    "emotion_condition": "neutral16",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -355,7 +355,7 @@ block3 = [
    "emotion_condition": "neutral17",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -365,7 +365,7 @@ block3 = [
    "emotion_condition": "neutral31_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -375,7 +375,7 @@ block3 = [
    "emotion_condition": "neutral13",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -385,7 +385,7 @@ block3 = [
    "emotion_condition": "neutral12",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -395,7 +395,7 @@ block3 = [
    "emotion_condition": "neutral4_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -405,7 +405,7 @@ block3 = [
    "emotion_condition": "neg16_m",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -415,7 +415,7 @@ block3 = [
    "emotion_condition": "neg2",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -425,7 +425,7 @@ block3 = [
    "emotion_condition": "neg3",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -435,7 +435,7 @@ block3 = [
    "emotion_condition": "neg3_m",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -445,7 +445,7 @@ block3 = [
    "emotion_condition": "neg32_m",
    "condition": "stop",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -455,7 +455,7 @@ block3 = [
    "emotion_condition": "neg21_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -465,7 +465,7 @@ block3 = [
    "emotion_condition": "2900_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -475,7 +475,7 @@ block3 = [
    "emotion_condition": "neg18_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -485,7 +485,7 @@ block3 = [
    "emotion_condition": "neg25_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -495,7 +495,7 @@ block3 = [
    "emotion_condition": "neg27_m",
    "condition": "stop",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "x"
  },
@@ -505,7 +505,7 @@ block3 = [
    "emotion_condition": "neg28_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -515,7 +515,7 @@ block3 = [
    "emotion_condition": "neg21",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -525,7 +525,7 @@ block3 = [
    "emotion_condition": "neg23",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -535,7 +535,7 @@ block3 = [
    "emotion_condition": "neg17_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -545,7 +545,7 @@ block3 = [
    "emotion_condition": "neg33_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -555,7 +555,7 @@ block3 = [
    "emotion_condition": "neg2_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -565,7 +565,7 @@ block3 = [
    "emotion_condition": "neg22",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -575,7 +575,7 @@ block3 = [
    "emotion_condition": "neg26",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -585,7 +585,7 @@ block3 = [
    "emotion_condition": "neg32",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -595,7 +595,7 @@ block3 = [
    "emotion_condition": "neg6_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -605,7 +605,7 @@ block3 = [
    "emotion_condition": "neg33",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -615,7 +615,7 @@ block3 = [
    "emotion_condition": "neg13_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -625,7 +625,7 @@ block3 = [
    "emotion_condition": "neg27",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -635,7 +635,7 @@ block3 = [
    "emotion_condition": "2900",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -645,7 +645,7 @@ block3 = [
    "emotion_condition": "neg11_m",
    "condition": "go",
    "arrow_direction": "left",
-   "arrow_key_correct": "z",
+   "arrow_key_correct": "c",
    "arrow_image": "signals/left_stim.bmp",
    "trial_response_correct": "l"
  },
@@ -655,7 +655,7 @@ block3 = [
    "emotion_condition": "neg31",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -665,7 +665,7 @@ block3 = [
    "emotion_condition": "neg25",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -675,7 +675,7 @@ block3 = [
    "emotion_condition": "neg19",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -685,7 +685,7 @@ block3 = [
    "emotion_condition": "9300",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -695,7 +695,7 @@ block3 = [
    "emotion_condition": "neg4_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -705,7 +705,7 @@ block3 = [
    "emotion_condition": "neg18",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -715,7 +715,7 @@ block3 = [
    "emotion_condition": "neg24",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -725,7 +725,7 @@ block3 = [
    "emotion_condition": "neg30",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -735,7 +735,7 @@ block3 = [
    "emotion_condition": "neg29",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -745,7 +745,7 @@ block3 = [
    "emotion_condition": "neg15",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -755,7 +755,7 @@ block3 = [
    "emotion_condition": "9320_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -765,7 +765,7 @@ block3 = [
    "emotion_condition": "neg8_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -775,7 +775,7 @@ block3 = [
    "emotion_condition": "neg20_m",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -785,7 +785,7 @@ block3 = [
    "emotion_condition": "neg14",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  },
@@ -795,7 +795,7 @@ block3 = [
    "emotion_condition": "neg28",
    "condition": "go",
    "arrow_direction": "right",
-   "arrow_key_correct": "m",
+   "arrow_key_correct": "n",
    "arrow_image": "signals/right_stim.bmp",
    "trial_response_correct": "r"
  }
