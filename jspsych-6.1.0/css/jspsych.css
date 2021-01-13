@@ -13,6 +13,8 @@
    display: flex;
    flex-direction: column;
    overflow-y: auto;
+   background-color: black;
+   color: white;
  }
 
  .jspsych-display-element:focus {
