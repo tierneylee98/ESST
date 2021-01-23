@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Emotion go stop</title>
+        <title>Emotional stop signal task</title>
         <script src="jspsych-6.1.0/jspsych.js"></script>
         <script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
         <script src="jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
@@ -51,33 +51,52 @@
         var timeline = [];
 
         // see docs for more info on the instructions plugin: https://www.jspsych.org/plugins/jspsych-instructions/
-        var instructions = {
+        var welcome = {
+            type: "html-keyboard-response",
+            stimulus: "<h1>Welcome!</h1>" +
+                "<p>Thank you for taking your time to participate in this study! </p><h2>Press any key to start</h2>"
+        };
+        timeline.push(welcome);
+
+        var instructions1 = {
+            type: 'instructions',
+            pages: ["<h1>Get settled in for the next 20 minutes</h1>" +
+                "<p>Make sure you're <b>sitting comfortably</b>.<br><br><h1>&#x1F515</h1>Shield yourself from <b>distractions</b>: <br>&#x1F4F4 <b>mute</b> your phone and <br>&#x1F4E9 e-mail alerts </p>" +
+
+                "<h2><br>Ready? Press space to continue</h2>"],
+            key_forward: 32, // code for space
+            show_clickable_nav: false
+        };
+        timeline.push(instructions1);
+
+        var instructions2 = {
             type: 'instructions',
             pages: [
-                "<p>In this task, you will see a photograph followed by an arrow. </p>" +
-                "<p>The arrows may point to the left or to the right. </p>" +
-                "<p>If the arrow is pointing to the left, then you should press the C-key.</p>" +
-                "<p>If the arrow is pointing to the right, then you should press the N-key.</p>" +
-                "<p>Try to respond as quickly as possible whilst not making any mistakes.</p>" +
-                "<p>Click the next button to continue.</p>",
-                "<p>Sometimes, the left/right arrow will be followed unexpectedly by an arrow pointing upwards.</p>" +
-                "<p>When this happens YOU MUST NOT RESPOND.</p>" +
-                "<p>Press the next button to continue</p>",
-                "<p>So remember:</p>" +
-                "<p>(1) Press the C-key when you see the left arrow.</p>" +
-                "<p>(2) Press the N-key when you see the right arrow. </p>" +
-                "<p>(3) But you have to stop if the up arrow appers.</p>" +
-                "<p>You can first practice this task with some feedback.</p>" +
-                "<p>Press the next button to begin the task.</p>"
+                "<p>You will see a photograph followed by an arrow.<br>The arrows may point to the left or to the right.</p><h1>&#x2B05 &#x27A1</h1>"+
+                "<h2><br>Press space to continue</h2>",
+                "<h1>&#x2B05</h1><p>If the arrow is pointing to the left, then you should press the C-key.</p>" +
+                "<br><h1>&#x27A1</h1><p>If the arrow is pointing to the right, then you should press the N-key.</p>"+
+                "<h2><br>Press space to continue</h2>",
+                "<h1>&#x2B06</h1>"+
+                "<p>Sometimes, the left/right arrow will be followed by an <b>arrow pointing upwards</b>.</p>" +
+                "<p>When this happens <br>&#x1F6AB<b>YOU MUST NOT RESPOND</b>&#x1F6AB</p>" +
+                "<h2><br>Press space to continue</h2>",
+                "<h1>&#x23F1</h1>"+
+                "<h2>Try to be <b>as quick as possible</b> in your responses</h2>"+
+                "<p>To make it faster, <br>put your left index finger on the C-key and <br>your right index finger on the N-key.</b></p>"+
+                "<h2><br>Press space to continue</h2>",
+                "<h1>&#x1F501</h1><p>First, let's practice this.<br>We'll give you feedback on how you're doing.</p>" +
+                "<h2><br>Ready? Press space to start the practice</h2>"
               ],
-            show_clickable_nav: true
+              key_forward: 32, // code for space
+              show_clickable_nav: false
         };
-        timeline.push(instructions);
+        timeline.push(instructions2);
 
         // set up feedback and conditions for practice trials
         var too_slow_message = {
             type: 'html-keyboard-response',
-            stimulus: '<p style="color:red; font-size:20px;">Please respond faster.</p>',
+            stimulus: '<h1 style="color:red;">Please respond faster.</h1>',
             choices: jsPsych.NO_KEYS,
             trial_duration: 500,
             post_trial_gap: 1000,
@@ -351,18 +370,19 @@
                 timeline.push(too_slow_conditional);
             }
         }
+
         // set up instructions post practice
         var post_practice_instructions = {
             type: 'instructions',
-            pages: ["<p>By now, you probably have an idea about what to do. If you have any questions, contact the experimenter. If you do not have any questions, feel free to continue. </p>" +
-                "<p>From now on there will be no feedback on your performance.  </p>" +
-                "<p>Remember: </p>" +
-                "<p>(1) Press the C-key when you see the left arrow.</p>" +
-                "<p>(2) Press the M-key when you see the right arrow. </p>" +
-                "<p>(3) But you have to stop if the up arrow appers. </p>" +
-                "<p>Press the next button to begin.</p>",
+            pages: ["<h1>&#x1F4A1<br>Nice!</h1><p>By now, you probably have an idea how this works. <br>If you have any questions, contact the researcher. <br>If you feel ready, please continue.</p>" +
+                "<p>From now on there will be no feedback on your performance.</p>" +
+                "<h2>Press space to continue</h2>",
+                "<h1>&#x1F514<br>A quick reminder</h1>" +
+                "<p>Press the C-key when you see the left arrow. <br>Press the N-key when you see the right arrow.<br>Stop if the up arrow appers. </p>" +
+                "<h2>Ready? Press space to start</h2>",
               ],
-            show_clickable_nav: true
+              key_forward: 32, // code for space
+              show_clickable_nav: false
         };
         timeline.push(post_practice_instructions);
 
@@ -535,10 +555,11 @@
         //set up instructions post block 1
         var post_block1_instructions = {
             type: 'instructions',
-            pages: ["<p>You are nearly finished. But you can take a break if you'd like. </p>" +
-                "<p>Press the next button when you are ready to continue.  </p>"
+            pages: ["<h2>Need a break?</h2><p>Have a good strech if feel like you need it.</p>" +
+                "<h2>Press space when you are ready to continue.  </h2>"
               ],
-            show_clickable_nav: true
+              key_forward: 32, // code for space
+              show_clickable_nav: false
         };
         timeline.push(post_block1_instructions);
 
@@ -711,12 +732,13 @@
 
         //set up instructions post block 2
         var post_block2_instructions = {
-            type: 'instructions',
-            pages: ["<p>You are nearly finished. But you can take a break if you'd like. </p>" +
-                "<p>Press the next button when you are ready to continue.  </p>"
-              ],
-            show_clickable_nav: true
-        };
+          type: 'instructions',
+          pages: ["<h2>Need a break?</h2><p>Have a good strech if feel like you need it.</p>" +
+              "<h2>Press space when you are ready to continue. </h2>"
+            ],
+            key_forward: 32, // code for space
+            show_clickable_nav: false
+      };
         timeline.push(post_block2_instructions);
 
         //set up block 3
@@ -888,7 +910,7 @@
         // add end message
         var end = {
             type: 'html-keyboard-response',
-            stimulus: '<p>Great! You&#39;re done with this task.</p><p>Thank you for your time.</p>',
+            stimulus: '<h1>&#x1F38A<br>Great!</h1>You&#39;re done with this task.<br>Thank you for your time.</p>',
             trial_duration: 5000
         };
 
