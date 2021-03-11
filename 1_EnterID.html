@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enter ID</title>
+    <script src ="jspsych/jspsych.js" type="text/javascript"></script>
+    <script src ="jspsych/plugins/jspsych-survey-text-autofocus.js" type="text/javascript"></script>
+    <script src ="jatos.js" type="text/javascript"></script>
+      <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/SwellStyle.css">
+    <style>
+        input[type="text"] {display: block; margin: 0 auto;}
+        .jspsych-btn {border-width: small; border-color: #ffd166; font-size: 20px;}
+    </style>
+</head>
+<body>
+    <div id="container" style="display: flex; flex-direction: column; margin: auto; flex: 1 1 100%; width: 90%; height: 90%; text-align: center;"></div>
+    <div id="mobileMsg" style="font-family: 'Open Sans', 'Arial', sans-serif; font-size: 300%; line-height: 1.2em;"></div>
+    <div id="ieMsg" style="font-family: 'Open Sans', 'Arial', sans-serif; font-size: 100%; line-height: 1.2em;padding-top:20px;"></div>
+</body>
+<script type="text/javascript">
+
+jatos.onLoad(function() {
+
+    var swell_id = {
+        type: "survey-text-autofocus",
+        questions: [
+            {prompt: '<h1>Welcome!</h1><br><p>Please insert your Swell-ID number to continue: </p>', rows: 1, columns: 9, required: true}
+        ],
+        button_label: "Next",
+        on_load: function() {
+            // turn off autofill for ID text '<p>Insert the <b>last 4 digits</b> of your personal (mobile) phone number <input name="phone" type="text"></p>'box
+            text_input = document.querySelector("input[type='text']");
+            text_input.setAttribute("autocomplete", "off");
+        },
+        on_finish: function(data) {
+            // extract the Subject ID from the jsPsych data
+            var subject_id = JSON.parse(data.responses).Q0;
+            // save this ID to the study session data so that you can access it from other components
+            jatos.studySessionData["subject_id"] = subject_id;
+            console.log('id: ' + subject_id);
+        }
+    };
+
+      jsPsych.data.addProperties({
+        jatos_study_ID: jatos.studyId,
+        jatos_component_ID: jatos.componentId,
+        jatos_component_result_ID: jatos.componentResultId,
+        jatos_worker_ID: jatos.workerId,
+        jatos_study_result_ID: jatos.studyResultId,
+      });
+
+    jsPsych.init({
+        timeline: [swell_id],
+        default_iti: 0,
+        show_progress_bar: false,
+        on_finish: function() {
+          var result_json = jsPsych.data.get().json() + jsPsych.data.getInteractionData().json(); // This added on part after the + is to send browser interactions to JATOS in addition to trial data
+          jatos.submitResultData(result_json, jatos.startNextComponent);
+        }
+    });
+});
+</script>
+</html>

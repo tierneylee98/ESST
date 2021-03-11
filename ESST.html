@@ -8,6 +8,7 @@
         <script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
         <script src="jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
         <script src="jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
+        <script src="jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
         <script src = "block_trials/block1_info.js"></script>
         <script src = "block_trials/block2_info.js"></script>
         <script src = "block_trials/block3_info.js"></script>
@@ -50,6 +51,14 @@
 
         //set up timeline
         var timeline = [];
+
+        var participant_id = {
+          type: "survey-text",
+          questions: [
+            {prompt: "What is your participant ID?"}
+          ]
+        };
+        timeline.push(participant_id);
 
         // see docs for more info on the instructions plugin: https://www.jspsych.org/plugins/jspsych-instructions/
         var welcome = {
@@ -914,6 +923,7 @@
             stimulus: '<h1>&#x1F38A<br>Great!</h1>You&#39;re done with this task.<br>Thank you for your time.</p>',
             trial_duration: 5000
         };
+        timeline.push(end);
 
         jsPsych.init({
             timeline: timeline,
